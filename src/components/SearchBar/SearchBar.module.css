@@ -1,0 +1,21 @@
+.searchField {
+    width: 20%;
+    padding: 10px 35px 10px 15px;
+    border-radius: 100px;
+    outline: none;
+}
+
+.searchButton {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+.searchButton > img {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin: 0 0 -5px -60px;
+    width: 25px;
+    height: 25px;
+}
