@@ -1,0 +1,50 @@
+
+.navigationButton {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.navigationButton a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 15px;
+    border: #5e9da0 1px solid;
+    color: #5e9da0;
+    cursor: pointer;
+}
+
+.navigationButton a:hover {
+    color: white;
+    background-color: #5e9da0;
+}
+
+.navigationActive {
+
+}
+
+.navigationActive a {
+    color: white;
+    background-color: #5e9da0;
+}
+
+.navigationDisabled {
+
+}
+
+.navigationDisabled a {
+    color: #b4b4b4;
+    background-color: #2d484b;
+}
+
+.previousButton {
+
+}
+
+.nextButton {
+
+}

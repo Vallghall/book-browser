@@ -1,0 +1,8 @@
+.ResultBar {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+
+    margin: 0 4%;
+    width: 80%;
+}

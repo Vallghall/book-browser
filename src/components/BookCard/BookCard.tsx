@@ -1,12 +1,14 @@
 import React from 'react'
+import {Item} from "../../store/books.store"
+import classes from "./BookCard.module.css"
 
-const BookCard = () => {
+const BookCard = ({imageLink, categories, title, authors}: Item) => {
     return (
-        <div>
-            <img src="" alt="Book image"/>
-            <span>Тема</span>
-            <p>Название книги</p>
-            <p>Авторы</p>
+        <div className={classes.BookCard}>
+            <img src={imageLink} alt="Book image"/>
+            <p><i>{categories?.[0] || "Not mentioned"}</i></p>
+            <p><strong>{title}</strong></p>
+            <p>{authors?.join("; ") || "authors not mentioned"}</p>
         </div>
     )
 }
